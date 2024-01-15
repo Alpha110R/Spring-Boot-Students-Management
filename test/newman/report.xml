@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STUDENTS_TEST" tests="4" time="0.414">
+  <testsuite name="create user" id="e84d2670-70bb-4a28-a37d-69ee77d2f942" timestamp="2024-01-13T22:16:00.258Z" tests="1" failures="0" errors="0" time="0.223">
+    <testcase name="Status code is 200" time="0.223" classname="StudentsTest"/>
+  </testsuite>
+  <testsuite name="get Token" id="868de73a-519e-4ec9-a3c2-ff567a791baf" timestamp="2024-01-13T22:16:00.258Z" tests="1" failures="0" errors="0" time="0.122">
+    <testcase name="Status code is 200" time="0.122" classname="StudentsTest"/>
+  </testsuite>
+  <testsuite name="create student" id="da4df741-c872-4acf-a25b-5456660f88b2" timestamp="2024-01-13T22:16:00.258Z" tests="1" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="StudentsTest"/>
+  </testsuite>
+  <testsuite name="get Student" id="55cee26d-48a0-4c12-8cbd-a9b05ed149b5" timestamp="2024-01-13T22:16:00.258Z" tests="1" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="StudentsTest"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+version: "3"
+services:
+  appserver:
+    container_name: server
+    hostname: localhost
+    image: alpha110r/spring-project:alon-007
+    ports:
+      - "8080:8080"
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 123456
+    ports:
+    - 5432:5432
+    volumes:
+      - ./postgresdata:/var/lib/postgresql/data
+    privileged: true
+
