@@ -1,11 +1,10 @@
 version: "3"
 services:
-  db:
-    image: postgres
-    environment:
-      POSTGRES_PASSWORD: 123456
+  appserver:
+    container_name: server
+    hostname: localhost
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 5432:5432
-    volumes:
-      - ./postgresdata:/var/lib/postgresql/data
-    privileged: true
+      - "8080:8080"

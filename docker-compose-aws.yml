@@ -3,9 +3,7 @@ services:
   appserver:
     container_name: server
     hostname: localhost
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: alpha110r/spring-project:alon-007.2
     ports:
       - "8080:8080"
   postgres:
@@ -17,4 +15,3 @@ services:
     volumes:
       - ./postgresdata:/var/lib/postgresql/data
     privileged: true
-
